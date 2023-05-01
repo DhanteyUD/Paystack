@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +23,17 @@ body {
     align-items: center;
 }
 
+.dog-icon {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 5%;
+        left: 3%;
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+}
+
 .header {
     width: 50%;
     padding: 20px;
@@ -29,18 +43,27 @@ body {
     margin: 0;
     text-align: center;
     font-weight: 600;
+    font-size: 100px;
     color: #fff;
     text-shadow: 2px 4px 4px #000;
+}
+
+.header > p {
+        font-weight: 400;
+        font-size: 40px;
+        color: #fff;
+        margin-left: 70px;
+        font-family: 'Zilla Slab Highlight', cursive;
 }
 
 .card {
     width: 400px;
     height: 500px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* header > h1 */
+/*------ header > h1 ----------*/
 
 .text-focus-in {
 	-webkit-animation: text-focus-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -73,7 +96,7 @@ body {
     }
 }
 
-/* Card */
+/*--------- Card ---------*/
 
 .bounce-in-top {
 	-webkit-animation: bounce-in-top 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.8s both;
@@ -185,5 +208,40 @@ body {
               animation-timing-function: ease-out;
     }
 }
+
+/*------- header > p -------*/
+
+.slide-in-left {
+	-webkit-animation: slide-in-left 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.5s both;
+	        animation: slide-in-left 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.5s both;
+}
+
+@-webkit-keyframes slide-in-left {
+        0% {
+          -webkit-transform: translateX(-1000px);
+                  transform: translateX(-1000px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateX(0);
+                  transform: translateX(0);
+          opacity: 1;
+        }
+}
+
+@keyframes slide-in-left {
+        0% {
+          -webkit-transform: translateX(-1000px);
+                  transform: translateX(-1000px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateX(0);
+                  transform: translateX(0);
+          opacity: 1;
+        }
+}
+      
+      
   
 
