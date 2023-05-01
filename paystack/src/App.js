@@ -1,8 +1,11 @@
-/** @format */
-import './App.css';
+import Paystack from './components/paystack';
 
 function App() {
-  return <div className="App">Hello!</div>;
+  return (
+    <div className="App">
+      <Paystack />
+    </div>
+  )
 }
 
 export default App;
