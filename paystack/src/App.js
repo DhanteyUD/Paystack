@@ -1,4 +1,4 @@
-import Paystack from './components/paystack';
+import Paystack from "./components/paystack";
 
 function App() {
   return (
