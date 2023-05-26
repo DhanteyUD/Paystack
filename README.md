@@ -1,11 +1,5 @@
 # Paystack Integration - React
 Integrating Paystack with React
 
-## Setup
+![Pet Fancy](https://github.com/DhanteyUD/Paystack-Integration__React/assets/85023604/02624a2f-0ffc-44e9-8e75-ffe93e271336)
 
-* Install dependencies - Just run `yarn` from the root of the directory structure.
-* Run the app with `yarn start`
-
->#FrontEnd
-
-```In Progress...```
