@@ -1,6 +1,5 @@
 import './paystack.css';
 import React, {useState, useEffect} from 'react';
-import PaystackPop from '@paystack/inline-js';
 import Form from './form';
 
 const DogIcons = ['https://res.cloudinary.com/dhantey/image/upload/v1683026512/Dog-10-unscreen_s01xpu.gif', 
