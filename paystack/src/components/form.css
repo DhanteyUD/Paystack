@@ -113,3 +113,20 @@
     z-index: 1;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 768px) {
+    .form-header {
+        display: none;
+    }
+
+    .dog-icon-form {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        position: absolute;
+        top: 7%;
+        right: 6%;
+        z-index: 1;
+        border-radius: 50%;
+    }
+}
