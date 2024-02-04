@@ -1,4 +1,4 @@
-# Paystack Integration - React
+# Paystack - React
 Integrating Paystack with React
 > NB: This app is for test transactions. No real money will be debited.
 
