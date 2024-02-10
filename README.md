@@ -1,6 +1,6 @@
 # Paystack - React
 Integrating Paystack with React
-> NB: This app is for test transactions. No real money will be debited.
+> NB: This app is for test transactions. No real money will be debited 😁
 
 ## <a href='https://petfancy.netlify.app/' target='_blank'>Pet Fancy</a>
 
