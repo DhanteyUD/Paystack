@@ -1,4 +1,4 @@
-# Paystack - React
+# Pet Fancy - React, Pay stack 
 
 > NB: This app is for test transactions ONLY. No real money will be debited 😁
 
